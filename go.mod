@@ -5,8 +5,8 @@ go 1.25.0
 toolchain go1.25.4
 
 replace (
-	github.com/rancher/dynamiclistener => github.com/iYashMaurya/dynamiclistener v0.0.0-20251230053739-ab144b88f125
-	github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20251229090358-2a0ac2717b07
+	github.com/rancher/dynamiclistener => github.com/iYashMaurya/dynamiclistener v0.0.0-20260111180104-eba79e78d63b
+	github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20260111155633-72014ddd7f4b
 )
 
 require (
