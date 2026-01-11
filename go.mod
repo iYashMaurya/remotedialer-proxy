@@ -2,9 +2,12 @@ module github.com/rancher/remotedialer-proxy
 
 go 1.25.0
 
-replace github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20251229090358-2a0ac2717b07
+toolchain go1.25.4
 
-replace github.com/rancher/dynamiclistener => github.com/iYashMaurya/dynamiclistener v0.0.0-20251230053739-ab144b88f125
+replace (
+	github.com/rancher/dynamiclistener => github.com/iYashMaurya/dynamiclistener v0.0.0-20251230053739-ab144b88f125
+	github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20251229090358-2a0ac2717b07
+)
 
 require (
 	github.com/gorilla/mux v1.8.1
